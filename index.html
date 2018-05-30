@@ -5,6 +5,14 @@
   </head>
   <body>
     <main>
+      <div class="form">
+        <form onsubmit="createPost();return false;" id="post-form">
+            Title: <input type="text" id="postTitle"><br>
+            Post: <input type="textarea" id="postBody"><br>
+            Author: <input type="text" id="postAuthor"><br>
+            <input type="submit">
+          </form>
+        </div>  
     </main>
     <script src="node_modules/lodash/lodash.min.js"></script>
     <script src="index.js"></script>
